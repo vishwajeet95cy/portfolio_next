@@ -17,13 +17,13 @@ export const detail = {
 
     author: "Vishwajeet Kumar",
 
-    metadataBase: "https://your-portfolio.com",
+    metadataBase: process.env.NEXT_PUBLIC_SITE_URL,
 
     openGraph: {
       title: "Vishwajeet Kumar | MERN Stack Developer",
       description:
         "Full Stack Developer with 5+ years experience in MERN stack.",
-      url: "https://your-portfolio.com",
+      url: process.env.NEXT_PUBLIC_SITE_URL,
       siteName: "Vishwajeet Portfolio",
       images: [
         {
